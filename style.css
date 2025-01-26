@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+
+}
+.main_box{
+    background-image: url(photo.jpg);
+    background-size:cover;
+    height: 100vh;
+
+    
+    
+}
+
+.main_box #menu-btn{
+    color: white;
+    font-size:xx-large;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+#menu-btn:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.main_box #check{
+   display: none;
+}
+.side-bar{
+    position: fixed;
+    left:-697px;
+    top: 0px;
+    background-color:rgb(255,255,255,0.1) ;
+    height: 100vh;
+    width: 250px;
+    box-shadow: 0 0 6px rgba(255,255,255,0.2);
+    transition: all 0.5s linear;
+}
+
+.side-bar_nav_bar-componenet{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+#check:checked ~ .menu-btn{
+    display: none;
+}
+
+#check:checked ~ .side-bar{
+    left:0px;
+    
+}
+
+.side-bar_nav_bar{
+   
+}
+
+.component-anchor-tag{
+    margin-left: 12px;
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+
+
+}
+
+#component-logo{
+    color: white;
+}
+
+.apna-college{
+    color: white;
+    display: flex;
+    justify-content:center;
+    font-size: larger;
+    box-shadow: 0 2px 4px rgb(255,255,255,0.5);
+    padding: 20px;
+
+}
+
+.side-bar_social_media{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+}
+
+.side-bar_social_media a{
+    margin-right: 20px;
+    color: white;
+    font-size: larger;
+}
+
+.side-bar_social_media a:hover{
+    scale:1.5;
+}
+
+.apna-college_cross:hover{
+     cursor: pointer;
+     font-size: larger;
+}
+
+.apna-college_cross{
+    margin-left: 50px;
+}
+
+.side-bar_nav_bar-componenet:hover{
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px rgb(255,255,255,0.5);
+}
+
+
+
+
+
+/* .side-bar{
+    box-shadow: -15px -2px 70px    grey ;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(255,255,255, 0.1);
+    position: relative;
+
+}
+#menu{
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+        margin-left: 5px;
+        position: relative;
+        top: 8px;
+        
+}
+#logo
+ {   
+    position: absolute;
+    font-size:20px ;
+    top: 15px;
+    color: white;
+    
+     
+
+}
+#nav_bar{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+
+    
+}
+#nav_bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 6px;
+    
+}
+#nav_bar span{
+    color: white;
+    
+    
+}
+#nav_bar ul li{
+    margin-top: 30px;
+}
+.social_media ul {
+     height: 125px;
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 15px 0px 10px;
+     
+     
+
+
+}
+.social_media ul li{
+    list-style: none;
+}
+
+.social_media ul li a{
+    font-size: 25px;
+    color:white;
+    
+    
+  }
+
+ */
